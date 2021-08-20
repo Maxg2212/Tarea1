@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/QuickSort.cpp
+iostream
+-
+QuickSort.h
+C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/QuickSort.h
+
+C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/QuickSort.h
+
+C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/main.cpp
+iostream
+-
+QuickSort.h
+C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/QuickSort.h
+
