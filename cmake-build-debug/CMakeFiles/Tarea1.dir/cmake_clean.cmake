@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Tarea1.dir/QuickSort.cpp.obj"
+  "CMakeFiles/Tarea1.dir/TextFileManager.cpp.obj"
   "CMakeFiles/Tarea1.dir/main.cpp.obj"
   "Tarea1.exe"
   "Tarea1.exe.manifest"

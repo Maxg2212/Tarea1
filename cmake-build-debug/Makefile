@@ -152,6 +152,30 @@ QuickSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/QuickSort.cpp.s
 .PHONY : QuickSort.cpp.s
 
+TextFileManager.obj: TextFileManager.cpp.obj
+.PHONY : TextFileManager.obj
+
+# target to build an object file
+TextFileManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/TextFileManager.cpp.obj
+.PHONY : TextFileManager.cpp.obj
+
+TextFileManager.i: TextFileManager.cpp.i
+.PHONY : TextFileManager.i
+
+# target to preprocess a source file
+TextFileManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/TextFileManager.cpp.i
+.PHONY : TextFileManager.cpp.i
+
+TextFileManager.s: TextFileManager.cpp.s
+.PHONY : TextFileManager.s
+
+# target to generate assembly for a file
+TextFileManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/TextFileManager.cpp.s
+.PHONY : TextFileManager.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -188,6 +212,9 @@ help:
 	@echo ... QuickSort.obj
 	@echo ... QuickSort.i
 	@echo ... QuickSort.s
+	@echo ... TextFileManager.obj
+	@echo ... TextFileManager.i
+	@echo ... TextFileManager.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

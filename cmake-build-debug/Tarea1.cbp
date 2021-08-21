@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/QuickSort.h">
 			<Option target="Tarea1"/>
 		</Unit>
+		<Unit filename="C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/TextFileManager.cpp">
+			<Option target="Tarea1"/>
+		</Unit>
+		<Unit filename="C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/TextFileManager.h">
+			<Option target="Tarea1"/>
+		</Unit>
 		<Unit filename="C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/main.cpp">
 			<Option target="Tarea1"/>
 		</Unit>

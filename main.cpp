@@ -9,7 +9,7 @@ int main()
 
     std::cout << "Before Quick Sort :" << std::endl;
     QuickSort::printArray(array, n);
-    
+
     QuickSort::quicksort(array, 0, n);
 
     std::cout << "After Quick Sort :" << std::endl;
