@@ -4,6 +4,10 @@
 CMakeFiles/Tarea1.dir/QuickSort.cpp.obj: \
  ../QuickSort.cpp \
  ../QuickSort.h
+CMakeFiles/Tarea1.dir/TextFileManager.cpp.obj: \
+ ../TextFileManager.cpp \
+ ../TextFileManager.h
 CMakeFiles/Tarea1.dir/main.cpp.obj: \
  ../QuickSort.h \
+ ../TextFileManager.h \
  ../main.cpp

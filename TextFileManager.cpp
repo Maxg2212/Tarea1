@@ -47,7 +47,7 @@ int* TextFileManager::readFile(){
     //Almacena las líneas del archivo
     string textFromFile;
 
-    int myArray[1536];
+    //int myArray[1536];
     //Abre el archivo
     //ifstream readFromFile(FileName+".txt");
 
@@ -58,22 +58,41 @@ int* TextFileManager::readFile(){
 
     }
      */
-    ifstream file(FileName+".txt");
-    if(file.is_open())
+    //ifstream file(FileName+".txt");
+    //if(file.is_open())
+    //{
+
+
+    //    for(int i = 0; i < numberOfIntegers; ++i)
+    //    {
+    //       file >> myArray[i];
+    //    }
+    //}
+
+    //return myArray;
+    ifstream infile;
+    //int myArray[1536];
+    int i=0;
+    char cNum[10] ;
+    infile.open ("Archivo_Enteros.txt", ifstream::in);
+    if (infile.is_open())
     {
-
-
-        for(int i = 0; i < numberOfIntegers; ++i)
+        while (infile.good())
         {
-            file >> myArray[i];
+            infile.getline(cNum, 256, ',');
+            myArray[i]= atoi(cNum) ;
+            i++ ;
         }
+        infile.close();
     }
-
+    else
+    {
+    }
+    for (int i = 1536 - 1; i >= 0; i--)
+        cout << myArray[i] << endl;
     return myArray;
-
-
 }
-void TextFileManager::createResultFile(){
+void TextFileManager::createResultFile() {
 
     ofstream resultFile("Archivo_Resultado.txt");
 

@@ -29,6 +29,7 @@ public:
 public:
     std::string FileName;
     int numberOfIntegers;
+    int myArray[1536];
 
 };
 
