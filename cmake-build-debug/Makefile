@@ -128,6 +128,30 @@ Tarea1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/build
 .PHONY : Tarea1/fast
 
+PageFaults.obj: PageFaults.cpp.obj
+.PHONY : PageFaults.obj
+
+# target to build an object file
+PageFaults.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/PageFaults.cpp.obj
+.PHONY : PageFaults.cpp.obj
+
+PageFaults.i: PageFaults.cpp.i
+.PHONY : PageFaults.i
+
+# target to preprocess a source file
+PageFaults.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/PageFaults.cpp.i
+.PHONY : PageFaults.cpp.i
+
+PageFaults.s: PageFaults.cpp.s
+.PHONY : PageFaults.s
+
+# target to generate assembly for a file
+PageFaults.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/PageFaults.cpp.s
+.PHONY : PageFaults.cpp.s
+
 QuickSort.obj: QuickSort.cpp.obj
 .PHONY : QuickSort.obj
 
@@ -209,6 +233,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Tarea1
+	@echo ... PageFaults.obj
+	@echo ... PageFaults.i
+	@echo ... PageFaults.s
 	@echo ... QuickSort.obj
 	@echo ... QuickSort.i
 	@echo ... QuickSort.s

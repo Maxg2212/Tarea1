@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/PageFaults.cpp">
+			<Option target="Tarea1"/>
+		</Unit>
+		<Unit filename="C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/PageFaults.h">
+			<Option target="Tarea1"/>
+		</Unit>
 		<Unit filename="C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/QuickSort.cpp">
 			<Option target="Tarea1"/>
 		</Unit>

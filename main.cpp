@@ -1,6 +1,7 @@
 #include <iostream>
 #include "QuickSort.h"
 #include "TextFileManager.h"
+#include "PageFaults.h"
 
 
 int main()
@@ -12,6 +13,14 @@ int main()
 
     cout<<"Information from file:\n" << endl;
     file1.readFile();
+
+    //PGA
+    int pages[] = {7, 0, 1, 2, 0, 3, 0, 4,
+                   2, 3, 0, 3, 2};
+    int nm = sizeof(pages)/sizeof(pages[0]);
+    int capacity = 4;
+    PageFaults PRA = PageFaults(pages, nm, capacity);
+    PRA.pageFaults();
 
     //QS
     int array[1536];
@@ -26,4 +35,5 @@ int main()
     std::cout << "After Quick Sort :" << std::endl;
     QuickSort::printArray(array, n);
     return (0);
+
 }
