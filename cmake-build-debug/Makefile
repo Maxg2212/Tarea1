@@ -152,6 +152,30 @@ PageFaults.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/PageFaults.cpp.s
 .PHONY : PageFaults.cpp.s
 
+PagedArray.obj: PagedArray.cpp.obj
+.PHONY : PagedArray.obj
+
+# target to build an object file
+PagedArray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/PagedArray.cpp.obj
+.PHONY : PagedArray.cpp.obj
+
+PagedArray.i: PagedArray.cpp.i
+.PHONY : PagedArray.i
+
+# target to preprocess a source file
+PagedArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/PagedArray.cpp.i
+.PHONY : PagedArray.cpp.i
+
+PagedArray.s: PagedArray.cpp.s
+.PHONY : PagedArray.s
+
+# target to generate assembly for a file
+PagedArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/PagedArray.cpp.s
+.PHONY : PagedArray.cpp.s
+
 QuickSort.obj: QuickSort.cpp.obj
 .PHONY : QuickSort.obj
 
@@ -236,6 +260,9 @@ help:
 	@echo ... PageFaults.obj
 	@echo ... PageFaults.i
 	@echo ... PageFaults.s
+	@echo ... PagedArray.obj
+	@echo ... PagedArray.i
+	@echo ... PagedArray.s
 	@echo ... QuickSort.obj
 	@echo ... QuickSort.i
 	@echo ... QuickSort.s
