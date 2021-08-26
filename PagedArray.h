@@ -7,6 +7,14 @@
 #include "fstream"
 #include <iostream>
 
+/**
+ * @file PagedArray.h
+ * @author Max Garro Mora
+ * @brief Clase
+ * @version 1.0
+ * @date 24/08/2021
+ */
+
 class PagedArray {
     public:
         PagedArray(int *completeArray);

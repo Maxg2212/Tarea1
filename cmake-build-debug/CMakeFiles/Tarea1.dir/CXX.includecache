@@ -6,9 +6,35 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/PageFaults.h
+C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/PageAlg.cpp
+PageAlg.h
+C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/PageAlg.h
+PagedArray.h
+C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/PagedArray.h
+iostream
+C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/iostream
+QuickSort.h
+C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/QuickSort.h
+
+C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/PageAlg.h
+
+C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/PagedArray.h
+fstream
+C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/fstream
+iostream
+-
 
 C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/QuickSort.h
+
+C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/TextFileManager.cpp
+TextFileManager.h
+C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/TextFileManager.h
+iostream
+-
+fstream
+-
+string
+-
 
 C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/TextFileManager.h
 fstream
@@ -23,6 +49,6 @@ QuickSort.h
 C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/QuickSort.h
 TextFileManager.h
 C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/TextFileManager.h
-PageFaults.h
-C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/PageFaults.h
+PageAlg.h
+C:/Users/maxga/OneDrive/Escritorio/Datos2/Tarea1/PageAlg.h
 

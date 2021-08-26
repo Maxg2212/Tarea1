@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Tarea1.dir/PageFaults.cpp.obj"
+  "CMakeFiles/Tarea1.dir/PageAlg.cpp.obj"
   "CMakeFiles/Tarea1.dir/PagedArray.cpp.obj"
   "CMakeFiles/Tarea1.dir/QuickSort.cpp.obj"
   "CMakeFiles/Tarea1.dir/TextFileManager.cpp.obj"

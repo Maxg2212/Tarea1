@@ -128,29 +128,29 @@ Tarea1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/build
 .PHONY : Tarea1/fast
 
-PageFaults.obj: PageFaults.cpp.obj
-.PHONY : PageFaults.obj
+PageAlg.obj: PageAlg.cpp.obj
+.PHONY : PageAlg.obj
 
 # target to build an object file
-PageFaults.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/PageFaults.cpp.obj
-.PHONY : PageFaults.cpp.obj
+PageAlg.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/PageAlg.cpp.obj
+.PHONY : PageAlg.cpp.obj
 
-PageFaults.i: PageFaults.cpp.i
-.PHONY : PageFaults.i
+PageAlg.i: PageAlg.cpp.i
+.PHONY : PageAlg.i
 
 # target to preprocess a source file
-PageFaults.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/PageFaults.cpp.i
-.PHONY : PageFaults.cpp.i
+PageAlg.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/PageAlg.cpp.i
+.PHONY : PageAlg.cpp.i
 
-PageFaults.s: PageFaults.cpp.s
-.PHONY : PageFaults.s
+PageAlg.s: PageAlg.cpp.s
+.PHONY : PageAlg.s
 
 # target to generate assembly for a file
-PageFaults.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/PageFaults.cpp.s
-.PHONY : PageFaults.cpp.s
+PageAlg.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tarea1.dir\build.make CMakeFiles/Tarea1.dir/PageAlg.cpp.s
+.PHONY : PageAlg.cpp.s
 
 PagedArray.obj: PagedArray.cpp.obj
 .PHONY : PagedArray.obj
@@ -257,9 +257,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Tarea1
-	@echo ... PageFaults.obj
-	@echo ... PageFaults.i
-	@echo ... PageFaults.s
+	@echo ... PageAlg.obj
+	@echo ... PageAlg.i
+	@echo ... PageAlg.s
 	@echo ... PagedArray.obj
 	@echo ... PagedArray.i
 	@echo ... PagedArray.s

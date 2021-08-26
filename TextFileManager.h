@@ -7,6 +7,17 @@
 #include "fstream"
 #include <iostream>
 
+/**
+ * @file TextFileManager.h
+ * @author Max Garro Mora
+ * @brief Esta clase se encarga de leer el archivo de texto para pasarlos de string a intergers para ingresarlos a un array, y luego usar este mismo array ya ordenado para escribirlo en el archivo de texto.
+ * @brief readFile(): para leer el archivo de texto, pasar los strings a intergers para asi poder emplear el quicksort.
+ * @brief createResultFile(*array): para crear el archivo final, este metodo toma el array ya ordenado y lo escribe en el archivo final ya ordenado.
+ * @version 1.0
+ * @date 20/08/2021
+ */
+
+
 class TextFileManager {
 public:
 
@@ -24,7 +35,7 @@ public:
 
     int * readFile();
 
-    void createResultFile();
+    void createResultFile(int *);
 
 public:
     std::string FileName;

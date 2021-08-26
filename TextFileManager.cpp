@@ -92,11 +92,13 @@ int* TextFileManager::readFile(){
         cout << myArray[i] << endl;
     return myArray;
 }
-void TextFileManager::createResultFile() {
+void TextFileManager::createResultFile(int *array) {
 
     ofstream resultFile("Archivo_Resultado.txt");
-
-    resultFile <<"Números ordenados";
+    for (int i = 0; i < 1536; ++i) {
+        resultFile << to_string(array[i]) + ",";
+    }
+    cout << "resultFile" << endl;
 
     resultFile.close();
 
