@@ -17,7 +17,18 @@
 
 class PagedArray {
     public:
+
+    /**
+     * @brief Constructor de la clase PagedArray
+     * @param *completeArray arreglo que contiene las 6 paginas a ordenar
+     */
         PagedArray(int *completeArray);
+
+        /**
+         * @brief metodo que se encarga de sobrecargar el operador [] y obtiene un interger
+         * @param int n, se encarga de indicar de pagina a obtener
+         * @return int, que representa el limite de la pagina escogida por el usuario
+         */
         int& operator[](int);
 
     public:

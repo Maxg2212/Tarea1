@@ -21,6 +21,12 @@
 class TextFileManager {
 public:
 
+    /**
+     * @brief Constructor de clase FileManager
+     * @param fileName Nombre de archivo
+     * @param numberOfIntegers Numero de intergers en el archivo de texto
+     */
+
     TextFileManager(const std::string &fileName, int numberOfIntegers);
 
     const std::string &getFileName() const;
@@ -31,9 +37,22 @@ public:
 
     void setNumberOfIntegers(int numberOfIntegers);
 
+    /**
+     * @brief Metodo que se encarga de crear un archivo de texto lleno de 1536 enteros.
+     */
+
     void createFile();
 
+    /**
+     * @brief  Metodo que se encarga de leer un archivo de texto.
+     */
+
     int * readFile();
+
+    /**
+     * @brief Metodo que se encarga de crear el archivo resultado, con los numeros enteros ordenados.
+     * @param int *array arreglo que se retorna despues de hacer todo el proceso de ordenamiento.
+     */
 
     void createResultFile(int *);
 

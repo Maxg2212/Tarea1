@@ -16,7 +16,20 @@ using namespace std;
 
 class QuickSort {
     public:
+
+    /**
+     * @brief imprime los elemenos del array en consola
+     * @param array arreglo que toma los elementos para ser impresos en consola
+     * @param n int que representa el limite de hasta donde el metodo imprime los elementos del arreglo
+     */
         static void printArray(int *, int );
+
+    /**
+     * @brief se encarga de ejecutar el algoritmo quicksort
+     * @param array arreglo a ordenar
+     * @param low int que representa la posicion baja de donde el algoritmo debe empezar a ordenar los elementos
+     * @param high int que representa el limite de donde el algoritmo debe parar de ordenar los elementos enteros
+     */
         static void quicksort(int *, int , int );
 
 };

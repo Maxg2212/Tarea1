@@ -1,0 +1,143 @@
+\hypertarget{class_text_file_manager}{}\doxysection{Text\+File\+Manager Class Reference}
+\label{class_text_file_manager}\index{TextFileManager@{TextFileManager}}
+
+
+{\ttfamily \#include $<$Text\+File\+Manager.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_text_file_manager_a59dea1f853cebc89a41e17b60ed70145}{Text\+File\+Manager}} (const std\+::string \&file\+Name, int \mbox{\hyperlink{class_text_file_manager_a7e19e980f85a6c5db5c4b0c753430081}{number\+Of\+Integers}})
+\begin{DoxyCompactList}\small\item\em Constructor de clase File\+Manager. \end{DoxyCompactList}\item 
+const std\+::string \& \mbox{\hyperlink{class_text_file_manager_a9e7496f45c66fec2acf6aeb573bb544d}{get\+File\+Name}} () const
+\item 
+void \mbox{\hyperlink{class_text_file_manager_aa1960181a7e4b796482e0e4c726ade11}{set\+File\+Name}} (const std\+::string \&file\+Name)
+\item 
+int \mbox{\hyperlink{class_text_file_manager_af7b6c93f1f0cb1ea4d6809b9b1328f49}{get\+Number\+Of\+Integers}} () const
+\item 
+void \mbox{\hyperlink{class_text_file_manager_a3083110bf8ce463991c6ec9b1f0a9832}{set\+Number\+Of\+Integers}} (int \mbox{\hyperlink{class_text_file_manager_a7e19e980f85a6c5db5c4b0c753430081}{number\+Of\+Integers}})
+\item 
+void \mbox{\hyperlink{class_text_file_manager_ad5fc6e61d5f5cf3aab086512b4fc35dc}{create\+File}} ()
+\begin{DoxyCompactList}\small\item\em Metodo que se encarga de crear un archivo de texto lleno de 1536 enteros. \end{DoxyCompactList}\item 
+int $\ast$ \mbox{\hyperlink{class_text_file_manager_ab5c4a68a3b4c3a2e8b5221c9ad8e9a4e}{read\+File}} ()
+\begin{DoxyCompactList}\small\item\em Metodo que se encarga de leer un archivo de texto. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_text_file_manager_a6d3645fcc6c36792ffc0b64924fa1562}{create\+Result\+File}} (int $\ast$)
+\begin{DoxyCompactList}\small\item\em Metodo que se encarga de crear el archivo resultado, con los numeros enteros ordenados. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_text_file_manager_a5c18fff10217cdbf1e4258027463e9f9}{File\+Name}}
+\item 
+int \mbox{\hyperlink{class_text_file_manager_a7e19e980f85a6c5db5c4b0c753430081}{number\+Of\+Integers}}
+\item 
+int \mbox{\hyperlink{class_text_file_manager_a597fef2a891c2008467be83a6143224a}{my\+Array}} \mbox{[}1536\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_text_file_manager_a59dea1f853cebc89a41e17b60ed70145}\label{class_text_file_manager_a59dea1f853cebc89a41e17b60ed70145}} 
+\index{TextFileManager@{TextFileManager}!TextFileManager@{TextFileManager}}
+\index{TextFileManager@{TextFileManager}!TextFileManager@{TextFileManager}}
+\doxysubsubsection{\texorpdfstring{TextFileManager()}{TextFileManager()}}
+{\footnotesize\ttfamily Text\+File\+Manager\+::\+Text\+File\+Manager (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Name,  }\item[{int}]{number\+Of\+Integers }\end{DoxyParamCaption})}
+
+
+
+Constructor de clase File\+Manager. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Nombre de archivo \\
+\hline
+{\em number\+Of\+Integers} & Numero de intergers en el archivo de texto \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_text_file_manager_ad5fc6e61d5f5cf3aab086512b4fc35dc}\label{class_text_file_manager_ad5fc6e61d5f5cf3aab086512b4fc35dc}} 
+\index{TextFileManager@{TextFileManager}!createFile@{createFile}}
+\index{createFile@{createFile}!TextFileManager@{TextFileManager}}
+\doxysubsubsection{\texorpdfstring{createFile()}{createFile()}}
+{\footnotesize\ttfamily void Text\+File\+Manager\+::create\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metodo que se encarga de crear un archivo de texto lleno de 1536 enteros. 
+
+\mbox{\Hypertarget{class_text_file_manager_a6d3645fcc6c36792ffc0b64924fa1562}\label{class_text_file_manager_a6d3645fcc6c36792ffc0b64924fa1562}} 
+\index{TextFileManager@{TextFileManager}!createResultFile@{createResultFile}}
+\index{createResultFile@{createResultFile}!TextFileManager@{TextFileManager}}
+\doxysubsubsection{\texorpdfstring{createResultFile()}{createResultFile()}}
+{\footnotesize\ttfamily void Text\+File\+Manager\+::create\+Result\+File (\begin{DoxyParamCaption}\item[{int $\ast$}]{array }\end{DoxyParamCaption})}
+
+
+
+Metodo que se encarga de crear el archivo resultado, con los numeros enteros ordenados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & $\ast$array arreglo que se retorna despues de hacer todo el proceso de ordenamiento. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_text_file_manager_a9e7496f45c66fec2acf6aeb573bb544d}\label{class_text_file_manager_a9e7496f45c66fec2acf6aeb573bb544d}} 
+\index{TextFileManager@{TextFileManager}!getFileName@{getFileName}}
+\index{getFileName@{getFileName}!TextFileManager@{TextFileManager}}
+\doxysubsubsection{\texorpdfstring{getFileName()}{getFileName()}}
+{\footnotesize\ttfamily const std\+::string \& Text\+File\+Manager\+::get\+File\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_text_file_manager_af7b6c93f1f0cb1ea4d6809b9b1328f49}\label{class_text_file_manager_af7b6c93f1f0cb1ea4d6809b9b1328f49}} 
+\index{TextFileManager@{TextFileManager}!getNumberOfIntegers@{getNumberOfIntegers}}
+\index{getNumberOfIntegers@{getNumberOfIntegers}!TextFileManager@{TextFileManager}}
+\doxysubsubsection{\texorpdfstring{getNumberOfIntegers()}{getNumberOfIntegers()}}
+{\footnotesize\ttfamily int Text\+File\+Manager\+::get\+Number\+Of\+Integers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_text_file_manager_ab5c4a68a3b4c3a2e8b5221c9ad8e9a4e}\label{class_text_file_manager_ab5c4a68a3b4c3a2e8b5221c9ad8e9a4e}} 
+\index{TextFileManager@{TextFileManager}!readFile@{readFile}}
+\index{readFile@{readFile}!TextFileManager@{TextFileManager}}
+\doxysubsubsection{\texorpdfstring{readFile()}{readFile()}}
+{\footnotesize\ttfamily int $\ast$ Text\+File\+Manager\+::read\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metodo que se encarga de leer un archivo de texto. 
+
+\mbox{\Hypertarget{class_text_file_manager_aa1960181a7e4b796482e0e4c726ade11}\label{class_text_file_manager_aa1960181a7e4b796482e0e4c726ade11}} 
+\index{TextFileManager@{TextFileManager}!setFileName@{setFileName}}
+\index{setFileName@{setFileName}!TextFileManager@{TextFileManager}}
+\doxysubsubsection{\texorpdfstring{setFileName()}{setFileName()}}
+{\footnotesize\ttfamily void Text\+File\+Manager\+::set\+File\+Name (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_text_file_manager_a3083110bf8ce463991c6ec9b1f0a9832}\label{class_text_file_manager_a3083110bf8ce463991c6ec9b1f0a9832}} 
+\index{TextFileManager@{TextFileManager}!setNumberOfIntegers@{setNumberOfIntegers}}
+\index{setNumberOfIntegers@{setNumberOfIntegers}!TextFileManager@{TextFileManager}}
+\doxysubsubsection{\texorpdfstring{setNumberOfIntegers()}{setNumberOfIntegers()}}
+{\footnotesize\ttfamily void Text\+File\+Manager\+::set\+Number\+Of\+Integers (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Integers }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_text_file_manager_a5c18fff10217cdbf1e4258027463e9f9}\label{class_text_file_manager_a5c18fff10217cdbf1e4258027463e9f9}} 
+\index{TextFileManager@{TextFileManager}!FileName@{FileName}}
+\index{FileName@{FileName}!TextFileManager@{TextFileManager}}
+\doxysubsubsection{\texorpdfstring{FileName}{FileName}}
+{\footnotesize\ttfamily std\+::string Text\+File\+Manager\+::\+File\+Name}
+
+\mbox{\Hypertarget{class_text_file_manager_a597fef2a891c2008467be83a6143224a}\label{class_text_file_manager_a597fef2a891c2008467be83a6143224a}} 
+\index{TextFileManager@{TextFileManager}!myArray@{myArray}}
+\index{myArray@{myArray}!TextFileManager@{TextFileManager}}
+\doxysubsubsection{\texorpdfstring{myArray}{myArray}}
+{\footnotesize\ttfamily int Text\+File\+Manager\+::my\+Array\mbox{[}1536\mbox{]}}
+
+\mbox{\Hypertarget{class_text_file_manager_a7e19e980f85a6c5db5c4b0c753430081}\label{class_text_file_manager_a7e19e980f85a6c5db5c4b0c753430081}} 
+\index{TextFileManager@{TextFileManager}!numberOfIntegers@{numberOfIntegers}}
+\index{numberOfIntegers@{numberOfIntegers}!TextFileManager@{TextFileManager}}
+\doxysubsubsection{\texorpdfstring{numberOfIntegers}{numberOfIntegers}}
+{\footnotesize\ttfamily int Text\+File\+Manager\+::number\+Of\+Integers}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_text_file_manager_8h}{Text\+File\+Manager.\+h}}\item 
+\mbox{\hyperlink{_text_file_manager_8cpp}{Text\+File\+Manager.\+cpp}}\end{DoxyCompactItemize}

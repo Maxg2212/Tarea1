@@ -14,12 +14,22 @@
 
 class PageAlg {
 public:
+
+    /**
+     * @brief Constructor de clase PageAlg
+     * @param array Array de numeros enteros
+     * @param index Indice de pagina
+     */
+
     PageAlg(int *array, int index);
 
 public:
     int *array;
     int index;
 
+    /**
+     *@brief Se encarga de reemplazar paginas y que se ejecute el algoritmo quicksort
+     */
 
     void PageChange();
 };

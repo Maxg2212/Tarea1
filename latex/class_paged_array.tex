@@ -1,0 +1,80 @@
+\hypertarget{class_paged_array}{}\doxysection{Paged\+Array Class Reference}
+\label{class_paged_array}\index{PagedArray@{PagedArray}}
+
+
+{\ttfamily \#include $<$Paged\+Array.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paged_array_ae1f6a57301586bfcd7135e6984abd859}{Paged\+Array}} (int $\ast$\mbox{\hyperlink{class_paged_array_a61e8c0576ed1dfa4ab6dd617ab399d65}{complete\+Array}})
+\begin{DoxyCompactList}\small\item\em Constructor de la clase \mbox{\hyperlink{class_paged_array}{Paged\+Array}}. \end{DoxyCompactList}\item 
+int \& \mbox{\hyperlink{class_paged_array_a99778707be276b8a00d46e1acde5de2e}{operator\mbox{[}$\,$\mbox{]}}} (int)
+\begin{DoxyCompactList}\small\item\em metodo que se encarga de sobrecargar el operador \mbox{[}\mbox{]} y obtiene un interger \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_paged_array_a274c8ed229c60acb27c76c9f3b9a14bd}{page\+Array}} \mbox{[}6\mbox{]}
+\item 
+int $\ast$ \mbox{\hyperlink{class_paged_array_a61e8c0576ed1dfa4ab6dd617ab399d65}{complete\+Array}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paged_array_ae1f6a57301586bfcd7135e6984abd859}\label{class_paged_array_ae1f6a57301586bfcd7135e6984abd859}} 
+\index{PagedArray@{PagedArray}!PagedArray@{PagedArray}}
+\index{PagedArray@{PagedArray}!PagedArray@{PagedArray}}
+\doxysubsubsection{\texorpdfstring{PagedArray()}{PagedArray()}}
+{\footnotesize\ttfamily Paged\+Array\+::\+Paged\+Array (\begin{DoxyParamCaption}\item[{int $\ast$}]{complete\+Array }\end{DoxyParamCaption})}
+
+
+
+Constructor de la clase \mbox{\hyperlink{class_paged_array}{Paged\+Array}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$complete\+Array} & arreglo que contiene las 6 paginas a ordenar \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paged_array_a99778707be276b8a00d46e1acde5de2e}\label{class_paged_array_a99778707be276b8a00d46e1acde5de2e}} 
+\index{PagedArray@{PagedArray}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!PagedArray@{PagedArray}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily int \& Paged\+Array\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{int}]{position }\end{DoxyParamCaption})}
+
+
+
+metodo que se encarga de sobrecargar el operador \mbox{[}\mbox{]} y obtiene un interger 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & n, se encarga de indicar de pagina a obtener \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int, que representa el limite de la pagina escogida por el usuario 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_paged_array_a61e8c0576ed1dfa4ab6dd617ab399d65}\label{class_paged_array_a61e8c0576ed1dfa4ab6dd617ab399d65}} 
+\index{PagedArray@{PagedArray}!completeArray@{completeArray}}
+\index{completeArray@{completeArray}!PagedArray@{PagedArray}}
+\doxysubsubsection{\texorpdfstring{completeArray}{completeArray}}
+{\footnotesize\ttfamily int$\ast$ Paged\+Array\+::complete\+Array}
+
+\mbox{\Hypertarget{class_paged_array_a274c8ed229c60acb27c76c9f3b9a14bd}\label{class_paged_array_a274c8ed229c60acb27c76c9f3b9a14bd}} 
+\index{PagedArray@{PagedArray}!pageArray@{pageArray}}
+\index{pageArray@{pageArray}!PagedArray@{PagedArray}}
+\doxysubsubsection{\texorpdfstring{pageArray}{pageArray}}
+{\footnotesize\ttfamily int Paged\+Array\+::page\+Array\mbox{[}6\mbox{]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_paged_array_8h}{Paged\+Array.\+h}}\item 
+\mbox{\hyperlink{_paged_array_8cpp}{Paged\+Array.\+cpp}}\end{DoxyCompactItemize}
