@@ -44,37 +44,14 @@ void TextFileManager::createFile(){
 
 int* TextFileManager::readFile(){
 
-    //Almacena las líneas del archivo
     string textFromFile;
-
-    //int myArray[1536];
-    //Abre el archivo
-    //ifstream readFromFile(FileName+".txt");
-
-    /*
-    //loop para leer el archivo
-    while (getline(readFromFile,textFromFile)){
-        cout<<textFromFile;
-
-    }
-     */
-    //ifstream file(FileName+".txt");
-    //if(file.is_open())
-    //{
-
-
-    //    for(int i = 0; i < numberOfIntegers; ++i)
-    //    {
-    //       file >> myArray[i];
-    //    }
-    //}
 
     //return myArray;
     ifstream infile;
     //int myArray[1536];
     int i=0;
     char cNum[10] ;
-    infile.open ("Archivo_Enteros.txt", ifstream::in);
+    infile.open ("Archivo_Enteros.txt", ifstream::in); //el archivo de texto necesariamente se debe llamar Archivo_Enteros.
     if (infile.is_open())
     {
         while (infile.good())
